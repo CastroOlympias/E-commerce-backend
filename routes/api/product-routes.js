@@ -30,14 +30,14 @@ router.get('/:id', (req, res) => {
     },
     include: [Category, Tag]
   })
-  .then(dbProductData => {
-    console.log(dbProductData)
-    res.json(dbProductData)
-  })
-  .catch(err => {
-    console.log(err);
-    res.status(500).json(err)
-  })
+    .then(dbProductData => {
+      console.log(dbProductData)
+      res.json(dbProductData)
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err)
+    })
 
 });
 
