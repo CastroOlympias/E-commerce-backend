@@ -36,15 +36,11 @@ Product.init(
       }
     },
     category_id: {
-      tape: DataTypes.INTEGER,
-      references: Category.id
-
-
-
-      // references: {
-      //   modelName: Category,
-      //   key: id
-      // }
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'category',
+        key: 'id'
+      }
     }
   },
   {
