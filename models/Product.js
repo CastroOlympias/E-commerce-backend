@@ -32,7 +32,7 @@ Product.init(
       allowNull: false,
       default: 10,
       validate: {
-        isDecimal: true // isNumeric maybe fased out? No autofill.
+        isNumeric: true // isNumeric maybe fased out? No autofill.
       }
     },
     category_id: {

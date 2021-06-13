@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   Product.findAll({
-    include: [Category, Tag]
+    include: [Category, Tag,]
   })
     .then(dbProductData => {
       console.log(dbProductData)
@@ -28,7 +28,7 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    include: [Category, Tag]
+    include: [Category, Tag,]
   })
     .then(dbProductData => {
       console.log(dbProductData)

@@ -23,10 +23,13 @@ router.get('/:id', (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
   Tag.findOne({
+    where: {
+      id: req.params.id
+    },
     include: [Product]
   })
     .then(dbTagData => {
-      console.log(dbTagData);
+      console.log(dbTagData)
       res.json(dbTagData)
     })
     .catch(err => {
