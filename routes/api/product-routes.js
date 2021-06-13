@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    })
+    });
 });
 
 // get one product
@@ -117,6 +117,17 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+  console.log('id', req.params.id);
+  Product.destroy({
+    where: {
+      id: req.params.id
+    }
+  })
+    .then(dbProductData => res.json(dbProductData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    })
 });
 
 module.exports = router;
