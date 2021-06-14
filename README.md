@@ -51,17 +51,17 @@ Download and install:
 
 
 ## Resources
-  Documentation:
+Documentation:
   <br>
-*  <a href="https://expressjs.com/">Express.js</a> A back end web application framework for Node.js
+* <a href="https://expressjs.com/">Express.js</a> A back end web application framework for Node.js
   <br>
 * <a href="https://nodejs.org/en/docs/">Node.js</a> Back-end JavaScript runtime environment
   <br>
 * <a href="http://sequelize.org/">Sequelize/ORM</a> Object Realational Mapping
   <br>
 * <a href="https://www.npmjs.com/package/dotenv">DotEnv</a> Secure your password to your database.
-    <br>
-*  <a href="https://support.insomnia.rest/">Insomnia</a> Software interface with your express server application
+  <br>
+* <a href="https://support.insomnia.rest/">Insomnia</a> Software interface with your express server application
 
 ## Testing
     Testing is performed by the Insomnia software.
