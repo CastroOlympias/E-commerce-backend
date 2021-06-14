@@ -21,19 +21,19 @@
   This wasn’t too bad of project, and neither was the choreography required to demonstrate CRUD. The setup of the for the video did require lots of practice as my attempts evolved over time. Copy paste is no the way to do it.
 
 ## Installation
-  Install in your terminal:
+Install in your terminal:
   <br>
-  * npm Install dotenv
+* npm Install dotenv
   <br>
-   * npm Install express
+* npm Install express
   <br>
-  * npm Install sequelize
+* npm Install sequelize
   <br>
   <br>
 
-  Download and install:
+Download and install:
   <br>
-  * <a href="https://insomnia.rest/">Insomnia</a>
+* <a href="https://insomnia.rest/">Insomnia</a>
 
 ## Usage
   I used Insomnia to communicate with the routes. These build on top of the /api routes. Don’t forget the /id of the below routes. The order of operation is to 1st(create a category, 2nd(create a tag, and 3rd(create a product. You have to have 1 and 2 done so you can assign a product to their respective category id and tag id. 
@@ -53,21 +53,21 @@
 ## Resources
   Documentation:
   <br>
-  * <a href="https://expressjs.com/">Express.js</a> A back end web application framework for Node.js
+*  <a href="https://expressjs.com/">Express.js</a> A back end web application framework for Node.js
   <br>
-  * <a href="https://nodejs.org/en/docs/">Node.js</a> Back-end JavaScript runtime environment
+* <a href="https://nodejs.org/en/docs/">Node.js</a> Back-end JavaScript runtime environment
   <br>
-  * <a href="http://sequelize.org/">Sequelize/ORM</a> Object Realational Mapping
+* <a href="http://sequelize.org/">Sequelize/ORM</a> Object Realational Mapping
   <br>
-  * <a href="https://www.npmjs.com/package/dotenv">DotEnv</a> Secure your password to your database.
+* <a href="https://www.npmjs.com/package/dotenv">DotEnv</a> Secure your password to your database.
     <br>
-  * <a href="https://support.insomnia.rest/">Insomnia</a> Software interface with your express server application
+*  <a href="https://support.insomnia.rest/">Insomnia</a> Software interface with your express server application
 
 ## Testing
     Testing is performed by the Insomnia software.
 
 ## Questions
-  * Git Hub Link: https://github.com/CastroOlympias
+* Git Hub Link: https://github.com/CastroOlympias
   <br>
-  * eMail address: blackcarrera@msn.com
+* eMail address: blackcarrera@msn.com
   <br>
